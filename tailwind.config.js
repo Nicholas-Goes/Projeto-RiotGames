@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'wallpaper': "url('/wallpaper.png')",
+      },
+      fontFamily: {
+        'DmSans': ['"DM Sans"', 'cursive']
       }
     },
   },

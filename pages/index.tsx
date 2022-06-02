@@ -3,10 +3,13 @@ import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
-    <html className="scroll-smooth font-sans">
+    <html className="scroll-smooth font-DmSans">
       <Head>
         <title>Riot Games</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+        
       </Head>
 
       <main className='flex '>
