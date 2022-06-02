@@ -3,17 +3,17 @@ import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
-    <html className="scroll-smooth">
+    <html className="scroll-smooth font-sans">
       <Head>
         <title>Riot Games</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='flex'>
+      <main className='flex '>
         <section className='flex flex-col items-center w-full max-w-lg min-h-screen p-11 justify-between'>
 
           <section className='w-full flex flex-col items-center justify-center'>
-            <img src="/logo.png" alt="" className='w-36 mb-20' />
+            <img src="/logo.png" alt="" className='w-36 mb-20 mt-20' />
 
             <h1 className='text-zinc-800 text-2xl mb-5'>Fazer Login</h1>
 
@@ -53,8 +53,9 @@ const Home: NextPage = () => {
             </button>
 
             <a href="#" className='text-sm uppercase text-zinc-600 mb-1 font-bold'>Não Consegue Iniciar a Sessão?</a>
-            <a href="#">Criar Conta</a>
+            <a href="#" className='text-sm uppercase text-zinc-600 mb-1 font-bold'>Criar Conta</a>
           </section>
+          <address className='text-sm uppercase text-zinc-600 mb-1 font-bold'>Maked with ❤ by Nicholas Goes</address>
 
         </section>
 
