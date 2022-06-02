@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
-    <html className="">
+    <html className="scroll-smooth">
       <Head>
         <title>Riot Games</title>
         <link rel="icon" href="/favicon.ico" />
