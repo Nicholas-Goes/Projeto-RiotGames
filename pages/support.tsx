@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 
 
-const support: NextPage = () => {
+const Support: NextPage = () => {
   return (
     <main>
       <header>Ola</header>
@@ -9,4 +9,4 @@ const support: NextPage = () => {
   )
 }
 
-export default support
+export default Support

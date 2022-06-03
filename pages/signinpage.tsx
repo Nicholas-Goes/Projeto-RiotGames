@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 
 
-const signinpage: NextPage = () => {
+const SignIn: NextPage = () => {
   return (
     <main>
       <header>Ola</header>
@@ -9,4 +9,4 @@ const signinpage: NextPage = () => {
   )
 }
 
-export default signinpage
+export default SignIn
