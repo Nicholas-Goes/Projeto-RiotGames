@@ -1,15 +1,17 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 
 const Home: NextPage = () => {
+  const router = useRouter()
+
   return (
-    <html className="scroll-smooth font-DmSans">
+    <div className="scroll-smooth font-DmSans">
       <Head>
         <title>Riot Games</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"/>
-        
       </Head>
 
       <main className='flex '>
@@ -18,7 +20,7 @@ const Home: NextPage = () => {
           <section className='w-full flex flex-col items-center justify-center'>
             <img src="/logo.png" alt="" className='w-36 mb-20 mt-20' />
 
-            <h1 className='text-zinc-800 text-2xl mb-5'>Fazer Login</h1>
+            <h1 className='text-zinc-800 text-2xl mb-8'>Fazer Login</h1>
 
             <label className="w-full block mb-5">
               <span className='absolute text-xs font-bold uppercase text-zinc-400 m-5 cursor-text'>Nome De Usuário</span>
@@ -55,20 +57,17 @@ const Home: NextPage = () => {
               <img src="/login.png" alt="Botão para efetuar Login na sua conta" />
             </button>
 
-            <a href="#" className='text-sm uppercase text-zinc-600 mb-1 font-bold'>Não Consegue Iniciar a Sessão?</a>
-            <a href="#" className='text-sm uppercase text-zinc-600 mb-1 font-bold'>Criar Conta</a>
+            <button type="button" className='text-sm uppercase text-zinc-600 mb-1 font-bold' onClick={() => router.push('/support')}>Não Consegue Iniciar a Sessão?</button>
+            <button type="button" className='text-sm uppercase text-zinc-600 mb-1 font-bold' onClick={() => router.push('/signinpage')}>Criar Conta</button>
           </section>
           <address className='text-sm uppercase text-zinc-600 mb-1 font-bold'>Maked with ❤ by Nicholas Goes</address>
 
         </section>
-
-        <section className='w-full bg-wallpaper bg-cover bg-center flex-1'>
-
-        </section>
+        <section className='w-full bg-wallpaper bg-cover bg-center flex-1'></section>
       </main>
 
       
-    </html>
+    </div>
   )
 }
 
