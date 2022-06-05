@@ -61,12 +61,9 @@ const Home: NextPage = () => {
             <button type="button" className='text-sm uppercase text-zinc-600 mb-1 font-bold' onClick={() => router.push('/signinpage')}>Criar Conta</button>
           </section>
           <address className='text-sm uppercase text-zinc-600 mb-1 font-bold'>Maked with ❤ by Nicholas Goes</address>
-
         </section>
         <section className='w-full bg-wallpaper bg-cover bg-center flex-1'></section>
       </main>
-
-      
     </div>
   )
 }
