@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 
 const Home: NextPage = () => {
-  
+
   const router = useRouter()
 
   return (
@@ -61,9 +61,8 @@ const Home: NextPage = () => {
             <button type="button" className='text-sm uppercase text-zinc-600 mb-1 font-bold' onClick={() => router.push('/support')}>Não Consegue Iniciar a Sessão?</button>
             <button type="button" className='text-sm uppercase text-zinc-600 mb-1 font-bold' onClick={() => router.push('/signinpage')}>Criar Conta</button>
           </section>
-          <address className='text-sm uppercase text-zinc-600 mb-1 font-bold'>Maked with ❤ by Nicholas Goes</address>
         </section>
-        <section className='w-full bg-wallpaper bg-cover bg-center flex-1'></section>
+        <section className='w-full bg-wallpaper-janna bg-cover bg-center flex-1'></section>
       </main>
     </div>
   )
