@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 
 const Home: NextPage = () => {
+  
   const router = useRouter()
 
   return (
