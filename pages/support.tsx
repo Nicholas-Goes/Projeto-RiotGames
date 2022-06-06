@@ -1,10 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import router from 'next/router'
+import { motion } from 'framer-motion'
 
 
 const Support: NextPage = () => {
   return (
+    <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
     <div className="scroll-smooth font-DmSans">   
       <Head>
         <title>Riot Games - Support</title>
@@ -51,6 +53,7 @@ const Support: NextPage = () => {
   
       </main> 
     </div>
+    </motion.div>
   )
 }
 

@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import { motion } from 'framer-motion'
 
 
 const SignIn: NextPage = () => {
@@ -8,6 +9,7 @@ const SignIn: NextPage = () => {
   const router = useRouter()
 
   return (
+    <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
     <div className="scroll-smooth font-DmSans">
       
       <Head>
@@ -69,6 +71,7 @@ const SignIn: NextPage = () => {
   
       </main> 
     </div>
+    </motion.div>
   )
 }
 

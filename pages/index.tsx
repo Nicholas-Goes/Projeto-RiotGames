@@ -1,12 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import { motion } from 'framer-motion'
 
 const Home: NextPage = () => {
 
   const router = useRouter()
 
   return (
+    <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
     <div className="scroll-smooth font-DmSans">
       <Head>
         <title>Riot Games - Login</title>
@@ -65,6 +67,7 @@ const Home: NextPage = () => {
         <section className='w-full bg-wallpaper-janna bg-cover bg-center flex-1'></section>
       </main>
     </div>
+    </motion.div>
   )
 }
 
