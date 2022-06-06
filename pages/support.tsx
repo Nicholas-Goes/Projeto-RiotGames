@@ -8,7 +8,7 @@ const Support: NextPage = () => {
     <div className="scroll-smooth font-DmSans">   
       <Head>
         <title>Riot Games - Support</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo-mark.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"/>
       </Head>
