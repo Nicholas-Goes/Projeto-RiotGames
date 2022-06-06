@@ -11,7 +11,7 @@ const SignIn: NextPage = () => {
     <div className="scroll-smooth font-DmSans">
       
       <Head>
-        <title>Riot Games</title>
+        <title>Riot Games - Sing in</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"/>
