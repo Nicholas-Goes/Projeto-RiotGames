@@ -58,7 +58,7 @@ const SignIn: NextPage = () => {
           </section>
 
           <section className='w-full flex flex-col items-center justify-center'>
-            <button type="button" className='w-16 h-16 p-5 flex items-center justify-center bg-red-600 rounded-lg border-none cursor-pointer mb-16' disabled>
+            <button type="button" className='w-16 h-16 p-5 flex items-center justify-center bg-red-600 rounded-lg border-none cursor-pointer my-16' disabled>
               <img src="/login.png" alt="Botão para efetuar Login na sua conta" />
             </button>
 
